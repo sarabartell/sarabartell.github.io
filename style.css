@@ -31,3 +31,24 @@ body {
   max-width: 960px;
   font-family: 'Open Sans', sans-serif;
 }
+
+.resources-title {
+  padding-left: 20px;
+  margin-top: 30px;
+}
+
+.resources-nav ul{
+  margin: 5px;
+}
+
+#body-heading {
+  text-align: center;
+}
+
+#tea-nav {
+  background-image: url(tea-images/green-tea.jpg);
+  width: 400px;
+  height: 292px;
+  text-align: center;
+  margin: auto;
+}
