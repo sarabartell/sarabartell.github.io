@@ -1,0 +1,86 @@
+#nav-bar-main {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  padding-left: 5px;
+  border: 2px dotted grey;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#nav-bar-main ul {
+  font-style: italic;
+}
+
+#first-title {
+  text-align: center;
+}
+
+#nav-bar-main h2 {
+  text-align: center;
+}
+
+main {
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+  padding-left: 20px;
+}
+
+body {
+  max-width: 960px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.resources-title {
+  padding-left: 20px;
+  margin-top: 30px;
+}
+
+.resources-nav ul{
+  margin: 5px;
+}
+
+.body-heading {
+  text-align: center;
+  font-family: Verdana, sans-serif;
+}
+
+#tea-nav {
+  background-image: url(tea-images/green-tea.jpg);
+  width: 400px;
+  height: 292px;
+  text-align: center;
+  margin: auto;
+}
+
+table {
+  background-color: #ffffbf;
+  border: 2px dotted grey;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: pink;
+}
+
+footer {
+  text-align: center;
+  font-style: italic;
+  color: #5ef971;
+}
+
+
+@media screen and (max-width: 500px) {
+  #first-title {
+    font-size: xx-large;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: large;
+  }
+}
