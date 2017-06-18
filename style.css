@@ -1,8 +1,3 @@
-footer {
-  text-align: center;
-  font-style: italic;
-}
-
 #nav-bar-main {
   display: inline-block;
   vertical-align: top;
@@ -43,6 +38,7 @@ body {
 
 #body-heading {
   text-align: center;
+  font-family: Verdana, sans-serif;
 }
 
 #tea-nav {
@@ -51,4 +47,17 @@ body {
   height: 292px;
   text-align: center;
   margin: auto;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: pink;
+}
+
+footer {
+  text-align: center;
+  font-style: italic;
 }
